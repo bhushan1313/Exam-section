@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>dashboard</title>
+        <link rel="stylesheet" href="/dashboard.css" type="text/css">
+        <script src="https://kit.fontawesome.com/8f82b9afac.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div id="right-menu">
+                <img id="logo" src="/amc-logo.png" alt="amc-logo">
+                <span id="domain-name">AMC Examination Section</span>
+            </div>
+        </nav>
+        <div id="form-container">
+            <form >
+                <h1 class="form-head">Exam Details</h1>
+                <p>Department :</p><input class="input-item" type="text" name="Dept" placeholder="Select">
+                <i id="dropdown-icon" class="fas fa-caret-down"></i>
+                <br>
+                <p>Semester :</p><input class="input-item" type="text" name="Sem" placeholder="Select">
+                <i id="dropdown-icon"  class="fas fa-caret-down" ></i>
+                <br>
+                <p>Exam Date :</p><input class="input-item" type="date" name="Exam Date" placeholder="Exam Date" >
+                <br>
+                <p>Course Name :</p><input class="input-item" type="text" name="Subject" placeholder="Select">
+                <i id="dropdown-icon" class="fas fa-caret-down"></i>
+                <br>
+                
+             </form>
+         
+         
+            <form >
+                <h1 class="form-head">Invigilator Details</h1>
+
+                <p>Number of Teachers :</p><input class="input-item" type="text" name="No of Teachers" placeholder="" >
+                <br>
+                
+             </form>
+         </div>
+         <div id="generate-div">
+            <input id="generate-button" type="submit" value="GENERATE">
+         </div>
+    </body>
+</html>

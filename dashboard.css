@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(230, 235, 237);
+    margin: 0;
+}
+
+nav {
+    width: 100vw;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    padding: 10px 0px;
+    z-index: 10;
+    box-shadow: 0 2px 5px #ccc;
+
+}
+
+#logo{
+    height: 65px;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+}
+#domain-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size:40px;
+    font-weight: 600;
+    color: rgb(21, 21, 142);
+    margin-left: 10px;
+}
+form{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    margin: 100px;
+    padding: 50px;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 4px;
+    
+}
+#form-container{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.form-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    font-weight: 600;
+    color: rgb(21, 21, 142);
+}
+.input-item{
+    border: 1px solid rgb(181, 200, 243) ;
+    background-color: transparent;
+    outline: none;
+    border-radius: 6px;
+    width: 200px;
+    padding: 16px;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.input-item:focus{
+    background-color: azure;
+}
+#dropdown-icon{
+    color: rgb(38, 36, 36);
+    position: relative;
+    right: 30px;
+}
+#generate-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    background-color: #5ef843f6;
+    color: rgb(7, 21, 49);
+    border: none;
+    padding:16px  ;
+    border-radius: 5px;
+    width: 150px;
+}
+#generate-div{
+    text-align: center;
+    margin: 20px;
+}

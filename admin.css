@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(230, 235, 237);
+    margin: 0;
+}
+
+nav {
+    width: 100vw;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    padding: 10px 0px;
+    z-index: 10;
+    box-shadow: 0 2px 5px #ccc;
+
+}
+
+#logo{
+    height: 65px;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+}
+#domain-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size:40px;
+    font-weight: 600;
+    color: rgb(21, 21, 142);
+    margin-left: 10px;
+}
+#center-img-wrapper{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    
+}
+#center-img{
+    height: 300px;
+    opacity:30%;
+    
+}
+#form-container{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.input-item{
+    border: 1px solid rgb(181, 200, 243) ;
+    background-color: transparent;
+    outline: none;
+    border-radius: 6px;
+    width: 300px;
+    padding: 16px;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.input-item:focus{
+    background-color: azure;
+}
+#login-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    background-color: #9495d084;
+    color: rgb(21, 21, 142);
+    border: none;
+    padding:16px  ;
+    border-radius: 5px;
+    width: 100px;
+    
+}
